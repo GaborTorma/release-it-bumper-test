@@ -7,6 +7,6 @@
   "keywords": [],
   "main": "index.js",
   "scripts": {
-    "release": "release-it --ci"
+    "release": "release-it"
   }
 }
