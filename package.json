@@ -10,7 +10,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "release": "pnpm --filter submodule1 release && pnpm --filter package1 release && pnpm --filter package3 release && pnpm --filter app1 release && pnpm --filter app2 release && release-it",
+    "release": "pnpm --filter submodule1 release && pnpm --filter app1 release && release-it",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
