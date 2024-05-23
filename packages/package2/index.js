@@ -1,3 +1,3 @@
 export default function () {
-  console.log('package2')
+  console.log('package2-change')
 }
