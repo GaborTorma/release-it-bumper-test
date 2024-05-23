@@ -10,6 +10,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "release": "pnpm --recursive release && release-it",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
