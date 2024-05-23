@@ -1,6 +1,9 @@
 {
   "git": {
-    "requireCleanWorkingDir": false
+    "requireCleanWorkingDir": false,
+    "commitMessage": "Release: Mono ${version}",
+    "tagAnnotation": "Release: Mono ${version}",
+    "tagName": "mono-v${version}"
   },
   "github": {
     "release": false

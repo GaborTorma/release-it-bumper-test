@@ -1,5 +1,9 @@
 {
-  "git": false,
+  "git": {
+    "commitMessage": "Release: Package2 ${version}",
+    "tagAnnotation": "Release: Package2 ${version}",
+    "tagName": "package2-v${version}"
+  },
   "npm": {
     "publish": false
   }
