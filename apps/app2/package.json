@@ -1,7 +1,7 @@
 {
   "name": "app2",
   "type": "module",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "",
   "author": "",
   "license": "ISC",
@@ -12,6 +12,6 @@
     "release": "release-it"
   },
   "dependencies": {
-    "package2": "workspace:1.0.9"
+    "package2": "1.1.0"
   }
 }
