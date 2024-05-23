@@ -1,5 +1,6 @@
 {
   "name": "app2",
+  "type": "module",
   "version": "1.0.8",
   "description": "",
   "author": "",
@@ -7,6 +8,7 @@
   "keywords": [],
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "release": "release-it"
   }
 }
