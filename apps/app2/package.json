@@ -10,5 +10,8 @@
   "scripts": {
     "start": "node index.js",
     "release": "release-it"
+  },
+  "dependencies": {
+    "package2": "workspace:1.0.9"
   }
 }
