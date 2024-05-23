@@ -1,0 +1,16 @@
+{
+  "name": "release-it-bumper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@release-it/bumper": "^6.0.1",
+    "release-it": "^17.3.0"
+  }
+}
