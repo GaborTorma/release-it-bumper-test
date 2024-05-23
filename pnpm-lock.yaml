@@ -21,9 +21,20 @@ importers:
         specifier: ^17.3.0
         version: 17.3.0(typescript@5.4.5)
 
-  apps/app1: {}
+  apps/app1:
+    dependencies:
+      package1:
+        specifier: workspace:1.0.9
+        version: link:../../packages/package1
+      package2:
+        specifier: workspace:1.0.9
+        version: link:../../packages/package2
 
-  apps/app2: {}
+  apps/app2:
+    dependencies:
+      package2:
+        specifier: workspace:1.0.9
+        version: link:../../packages/package2
 
   packages/package1: {}
 
