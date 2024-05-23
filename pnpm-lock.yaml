@@ -18,6 +18,14 @@ importers:
         specifier: ^17.3.0
         version: 17.3.0(typescript@5.4.5)
 
+  apps/app1: {}
+
+  apps/app2: {}
+
+  packages/package1: {}
+
+  packages/package2: {}
+
 packages:
 
   '@ampproject/remapping@2.3.0':
