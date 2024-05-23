@@ -2,10 +2,10 @@
 const version = '${version}'
 // eslint-disable-next-line node/prefer-global/process
 const packageName = process.env.npm_package_name
-const scope = packageName.split('/')[1]
+const scope = packageName
 
 module.exports = {
-  plugins: {
+  /* plugins: {
     '@release-it/conventional-changelog': {
       path: '.',
       infile: 'CHANGELOG.md',
@@ -14,7 +14,7 @@ module.exports = {
         path: '.',
       },
     },
-  },
+  }, */
   git: {
     push: true,
     tagName: `${packageName}-v${version}`,
