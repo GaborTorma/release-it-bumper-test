@@ -12,6 +12,6 @@
     "release": "release-it"
   },
   "dependencies": {
-    "package2": "1.1.0"
+    "package2": "workspace:1.0.10"
   }
 }
