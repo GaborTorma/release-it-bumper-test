@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "package1": "workspace:1.0.9",
-    "package2": "workspace:1.0.10"
+    "package2": "workspace:1.0.10",
+    "submodule1": "workspace:1.0.10"
   }
 }
