@@ -1,15 +1,19 @@
 {
   "name": "release-it-bumper",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
+    "@gabortorma/antfu-eslint-config": "^0.5.10",
     "@release-it/bumper": "^6.0.1",
     "release-it": "^17.3.0"
   }
