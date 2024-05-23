@@ -1,4 +1,15 @@
 {
+  "plugins": {
+    "@release-it-plugins/workspaces": {
+      "publish": false,
+      "skipChecks": true,
+      "workspaces": [
+        "apps/*",
+        "packages/*",
+        "releases/*"
+      ]
+    }
+  },
   "git": {
     "requireCleanWorkingDir": false,
     "commitMessage": "Release: Mono ${version}",
